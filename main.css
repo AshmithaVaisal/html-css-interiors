@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    background-color: #254336;
+    display:flex;
+    height: 60px;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family:'Mulish';
+    
+}
+
+ul li{
+    margin: 0 30px;
+    
+}
+
+.logo{
+   
+    margin-right: auto;
+
+}
+
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B7B597;
+    
+}
+
+h1{
+    margin-right: 80px;
+    /* position: relative; */
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+
+img{
+    width: 600px;
+    margin-top: 100px;
+  
+}
+
+/* .para{
+   
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    width: 500px;
+    margin-left: 90px;
+    
+ } */
+
+.about{
+   
+    display: flex;
+    flex-direction: row; /* Align items vertically */
+    justify-content: center;
+   
+}
+
+h2{
+    font-size: 38px;
+    color:  #e88d67;
+    flex: 1;
+     
+}
+
+p{
+    font-size: 18px;
+    flex: 1;
+    margin-top: 30px;
+    font-weight:lighter;
+    
+    
+}
+
+.about-section{
+    /* background-color: blue; */
+    width: 600px;
+    height: 300px;
+    margin-top: 80px;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.about-section2{
+
+      /* background-color: blue; */
+      width: 600px;
+      height: 300px;
+      margin-top: 1px;
+      justify-content: center;
+      margin-right: 100px;
+
+
+}
+
+.about2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.projects{
+
+    display: flex;
+
+}
+
+.projects-section{
+   flex: 1;
+   margin-left: 50px;
+
+}
+
+.gal-img{
+    width: 300px;
+    height: 300px;
+    padding: 0 40px;
+    margin-left: 50px ;
+    border-radius: 30px;
+    border: 2px dotted #e88d67;
+
+    
+}
+
+.gal-head{
+    margin: 0;
+
+}
+.gal-para{
+    font-family: Dancing Script;
+    flex: 1;
+}
+
+.gal-div{
+    display:flex;
+}
+
+.footer{
+    background-color:#254336; 
+    color: white;
+    font-size: 10px;
+    font-family:'Mulish';
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+   
+}
+
+.register{
+    margin-top: 100px;
+    
+}
+
+h3{
+    font-size: 30px;
+    color:  #e88d67;
+    margin-left:650px;
+}
+
+.form-div p{
+    
+    margin-left:400px;
+    
+}
+
+.enquire_p{
+    margin-top: 20px;
+    font-family:'Mulish';
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left:60px;
+    
+
+}
+
+label{
+    padding: 20px;
+    
+}
+
+input{
+    padding: 10px;
+    width: 700px;
+}
+
+button{
+    width: 75px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    color: white ;
+    background-color: #6B8A7A;
+}
